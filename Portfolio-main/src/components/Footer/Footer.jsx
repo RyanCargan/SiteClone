@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaHeart } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaHeart, FaMedium } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import './Footer.css'
 
@@ -16,6 +16,12 @@ export const Footer = () => {
       icon: <FaLinkedin />, 
       url: 'https://www.linkedin.com/in/suresh-dilhan/',
       //name: 'LinkedIn',
+      color: '#F4F4F4FF'
+    },
+    { 
+      icon: <FaMedium />, 
+      url: 'https://medium.com/@dilhan9g',
+      //name: 'Medium',
       color: '#F4F4F4FF'
     },
    

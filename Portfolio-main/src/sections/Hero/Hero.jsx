@@ -1,6 +1,7 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { motion, useAnimation } from 'framer-motion'
 import { FiGithub, FiLinkedin, FiTwitter, FiDownload, FiMail } from 'react-icons/fi'
+import { FaMedium } from 'react-icons/fa';
 import { useEffect } from 'react'
 import './Hero.css'
 
@@ -161,7 +162,9 @@ export const Hero = () => {
             {[
               { icon: <FiGithub />, url: "https://github.com/Dilhan9", label: "GitHub" },
               { icon: <FiLinkedin />, url: "https://www.linkedin.com/in/suresh-dilhan/", label: "LinkedIn" },
+              { icon: <FaMedium />, url: "https://medium.com/@dilhan9g", label: "Medium" },
               { icon: <FiMail />, url: "mailto:s.dilhan.dev@gmail.com", label: "Email" }
+              
             ].map((social, index) => (
               <motion.a 
                 key={index}
